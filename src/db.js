@@ -3,12 +3,13 @@ import { getFirestore, collection, doc, getDocs, addDoc, updateDoc, deleteDoc } 
 
 // Firebase configuration
 const config = {
-    apiKey: "AIzaSyCMTOnFo7C5pmIHe_4GP1UZEZvOn9rzCiA",
-    authDomain: "contact-book-a456f.firebaseapp.com",
-    projectId: "contact-book-a456f",
-    storageBucket: "contact-book-a456f.appspot.com",
-    messagingSenderId: "859164722549",
-    appId: "1:859164722549:web:9c56e812d0e17fc19cff3c"
+    apiKey: "AIzaSyCpFi8Br5T9ocn0_NCQRtN7KXjNGkzZxcA",
+    authDomain: "contact-book-8a9a8.firebaseapp.com",
+    databaseURL: "https://contact-book-8a9a8-default-rtdb.firebaseio.com",
+    projectId: "contact-book-8a9a8",
+    storageBucket: "contact-book-8a9a8.appspot.com",
+    messagingSenderId: "137368020357",
+    appId: "1:137368020357:web:905e31dc5a9fa727c190ec"
 };
 
 const app = initializeApp(config);
